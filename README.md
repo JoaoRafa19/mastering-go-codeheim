@@ -1,7 +1,7 @@
 # Mastering Go
 
 ## Code organization on Gin Framework
-- No mandatory 
+- No mandatory organization
 - MVC Architecture
 
     ```mermaid
@@ -15,4 +15,15 @@
     V -->|Response| R
     M --> D[(Database)]
     ```
+```shel
 
+│   ├── controllers
+│   ├── helpers
+│   ├── middlewares
+│   ├── models
+│   ├── static
+│   └── templates
+│   ├── go.mod
+│   ├── main.go
+|___README.md
+```
