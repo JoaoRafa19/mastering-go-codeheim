@@ -22,4 +22,12 @@ func main() {
 
 	fmt.Println("Coffe with caramel and milk: ", coffeWithMilkAndCaramel.Description(), "- Cost: ", coffeWithMilkAndCaramel.Cost())
 
+	coffeWithMilk.AddFoam()
+
+	fmt.Println("Coffe with milk: ", coffeWithMilk.Description(), "- Cost: ", coffeWithMilk.Cost())
+
+	coffeWithCaramel = &coffe.Caramel{Coffe: coffeWithMilk}
+
+	fmt.Println("Coffe with caramel: ", coffeWithCaramel.Description(), "- Cost: ", coffeWithCaramel.Cost())
+
 }
