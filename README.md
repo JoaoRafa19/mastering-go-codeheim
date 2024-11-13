@@ -40,4 +40,4 @@ func (user *User) BeforeCreate(tx *gorm.DB) error {
     return nil
 }
 ``` 
-## Decorator Pattern [here](Decoration%20Pattern/README.md)
+## Decorator Pattern [here](Decorator%20Pattern/)
